@@ -1,0 +1,16 @@
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-base-18.0.1-0 /home/ankit/.gradle/caches/transforms-3/16f8b6de7e8eb0e64f6f3a95d478735f/transformed/jetified-play-services-base-18.0.1/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-annotation-experimental-1.1.0-1 /home/ankit/.gradle/caches/transforms-3/1f5760441220db968400be4605b620bc/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-core-1.6.0-2 /home/ankit/.gradle/caches/transforms-3/296279ed31ff2ba9f8efc998915886a4/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-1.0.0-beta04-3 /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-basement-18.1.0-4 /home/ankit/.gradle/caches/transforms-3/3d2fc95333bca5dabcef49b0da59b765/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-browser-1.4.0-5 /home/ankit/.gradle/caches/transforms-3/939911fcdf44d82bf9465a26093a2d47/transformed/browser-1.4.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-java-1.0.0-beta04-6 /home/ankit/.gradle/caches/transforms-3/f1af9cfccad66a9edeeb3878e5be6133/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-firebase-common-20.4.2-7 /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/res
+io.flutter.plugins.firebase.auth.firebase_auth-main-8 /home/ankit/.pub-cache/hosted/pub.dev/firebase_auth-4.16.0/android/src/main/res
+io.flutter.plugins.firebase.auth.firebase_auth-release-9 /home/ankit/.pub-cache/hosted/pub.dev/firebase_auth-4.16.0/android/src/release/res
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-10 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_auth/generated/res/pngs/release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-11 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_auth/generated/res/resValues/release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-12 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-13 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-release-14 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_auth/intermediates/merged_res/release/mergeReleaseResources
+io.flutter.plugins.firebase.auth.firebase_auth-release-15 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_core/intermediates/packaged_res/release/packageReleaseResources

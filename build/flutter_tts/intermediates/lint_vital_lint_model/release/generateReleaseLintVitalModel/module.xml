@@ -1,0 +1,29 @@
+<lint-module
+    format="1"
+    dir="/home/ankit/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/android"
+    name=":flutter_tts"
+    type="LIBRARY"
+    maven="com.tundralabs.fluttertts:flutter_tts:"
+    agpVersion="8.3.1"
+    buildFolder="/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_tts"
+    bootClassPath="/home/ankit/Android/Sdk/platforms/android-31/android.jar:/home/ankit/Android/Sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage,GradleDependency"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="GradleDependency"
+        severity="IGNORE" />
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

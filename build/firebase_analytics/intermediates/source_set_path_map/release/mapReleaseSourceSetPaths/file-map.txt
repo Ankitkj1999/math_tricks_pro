@@ -1,0 +1,19 @@
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-ads-adservices-java-1.0.0-beta05-0 /home/ankit/.gradle/caches/transforms-3/151dad36614488c8a2cd3dfba9cad02e/transformed/jetified-ads-adservices-java-1.0.0-beta05/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-play-services-measurement-api-21.5.0-1 /home/ankit/.gradle/caches/transforms-3/1b6181e5d8e541d487b7e377028d9769/transformed/jetified-play-services-measurement-api-21.5.0/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-lifecycle-runtime-2.3.1-2 /home/ankit/.gradle/caches/transforms-3/2c6a296a23a0ab5cebc9551f3cc2833c/transformed/lifecycle-runtime-2.3.1/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-window-1.0.0-beta04-3 /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-play-services-basement-18.1.0-4 /home/ankit/.gradle/caches/transforms-3/3d2fc95333bca5dabcef49b0da59b765/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-annotation-experimental-1.3.0-5 /home/ankit/.gradle/caches/transforms-3/4009d6a9df7618dd6428c00387ec8905/transformed/jetified-annotation-experimental-1.3.0/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-core-1.9.0-6 /home/ankit/.gradle/caches/transforms-3/43fb6165797ad15996182f9ed5eec77e/transformed/core-1.9.0/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-core-ktx-1.9.0-7 /home/ankit/.gradle/caches/transforms-3/7c90f8a31eb0b4c5f85475792fb83e0f/transformed/jetified-core-ktx-1.9.0/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-ads-adservices-1.0.0-beta05-8 /home/ankit/.gradle/caches/transforms-3/e34fb72c13c9e6a8e539a58d74e50cc8/transformed/jetified-ads-adservices-1.0.0-beta05/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-window-java-1.0.0-beta04-9 /home/ankit/.gradle/caches/transforms-3/f1af9cfccad66a9edeeb3878e5be6133/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-firebase-common-20.4.2-10 /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-main-11 /home/ankit/.pub-cache/hosted/pub.dev/firebase_analytics-10.8.0/android/src/main/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-release-12 /home/ankit/.pub-cache/hosted/pub.dev/firebase_analytics-10.8.0/android/src/release/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-pngs-13 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_analytics/generated/res/pngs/release
+io.flutter.plugins.firebase.analytics.firebase_analytics-resValues-14 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_analytics/generated/res/resValues/release
+io.flutter.plugins.firebase.analytics.firebase_analytics-mergeReleaseResources-15 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_analytics/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.analytics.firebase_analytics-mergeReleaseResources-16 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_analytics/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.analytics.firebase_analytics-release-17 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_analytics/intermediates/merged_res/release/mergeReleaseResources
+io.flutter.plugins.firebase.analytics.firebase_analytics-release-18 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_core/intermediates/packaged_res/release/packageReleaseResources

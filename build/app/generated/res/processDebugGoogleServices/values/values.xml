@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">904742737185-vi7mhskbmv2u1v1c9rgrfvggobjeurn1.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">904742737185</string>
+    <string name="google_api_key" translatable="false">AIzaSyBf-Np_jbILdcfoBrojLi7Qnd4B0Jl1Ap8</string>
+    <string name="google_app_id" translatable="false">1:904742737185:android:2c01a83043eddff1c19a60</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBf-Np_jbILdcfoBrojLi7Qnd4B0Jl1Ap8</string>
+    <string name="google_storage_bucket" translatable="false">remath-pro.appspot.com</string>
+    <string name="project_id" translatable="false">remath-pro</string>
+</resources>

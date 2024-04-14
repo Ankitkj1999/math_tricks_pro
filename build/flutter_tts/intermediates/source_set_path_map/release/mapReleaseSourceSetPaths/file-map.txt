@@ -1,0 +1,13 @@
+com.tundralabs.fluttertts.flutter_tts-jetified-annotation-experimental-1.1.0-0 /home/ankit/.gradle/caches/transforms-3/1f5760441220db968400be4605b620bc/transformed/jetified-annotation-experimental-1.1.0/res
+com.tundralabs.fluttertts.flutter_tts-lifecycle-runtime-2.3.1-1 /home/ankit/.gradle/caches/transforms-3/2c6a296a23a0ab5cebc9551f3cc2833c/transformed/lifecycle-runtime-2.3.1/res
+com.tundralabs.fluttertts.flutter_tts-jetified-window-1.0.0-beta04-2 /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/res
+com.tundralabs.fluttertts.flutter_tts-core-1.8.0-3 /home/ankit/.gradle/caches/transforms-3/50580891c3bdd81da574ce17a299f54d/transformed/core-1.8.0/res
+com.tundralabs.fluttertts.flutter_tts-jetified-core-ktx-1.8.0-4 /home/ankit/.gradle/caches/transforms-3/aafabb1fe7406cab6518680e865a77fa/transformed/jetified-core-ktx-1.8.0/res
+com.tundralabs.fluttertts.flutter_tts-jetified-window-java-1.0.0-beta04-5 /home/ankit/.gradle/caches/transforms-3/f1af9cfccad66a9edeeb3878e5be6133/transformed/jetified-window-java-1.0.0-beta04/res
+com.tundralabs.fluttertts.flutter_tts-main-6 /home/ankit/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/android/src/main/res
+com.tundralabs.fluttertts.flutter_tts-release-7 /home/ankit/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/android/src/release/res
+com.tundralabs.fluttertts.flutter_tts-pngs-8 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_tts/generated/res/pngs/release
+com.tundralabs.fluttertts.flutter_tts-resValues-9 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_tts/generated/res/resValues/release
+com.tundralabs.fluttertts.flutter_tts-mergeReleaseResources-10 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_tts/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.tundralabs.fluttertts.flutter_tts-mergeReleaseResources-11 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_tts/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.tundralabs.fluttertts.flutter_tts-release-12 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_tts/intermediates/merged_res/release/mergeReleaseResources

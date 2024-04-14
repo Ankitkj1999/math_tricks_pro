@@ -1,0 +1,12 @@
+com.benjaminabel.vibration-jetified-annotation-experimental-1.1.0-0 /home/ankit/.gradle/caches/transforms-3/1f5760441220db968400be4605b620bc/transformed/jetified-annotation-experimental-1.1.0/res
+com.benjaminabel.vibration-core-1.6.0-1 /home/ankit/.gradle/caches/transforms-3/296279ed31ff2ba9f8efc998915886a4/transformed/core-1.6.0/res
+com.benjaminabel.vibration-jetified-window-1.0.0-beta04-2 /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/res
+com.benjaminabel.vibration-jetified-window-java-1.0.0-beta04-3 /home/ankit/.gradle/caches/transforms-3/f1af9cfccad66a9edeeb3878e5be6133/transformed/jetified-window-java-1.0.0-beta04/res
+com.benjaminabel.vibration-main-4 /home/ankit/.pub-cache/hosted/pub.dev/vibration-1.8.4/android/src/main/res
+com.benjaminabel.vibration-release-5 /home/ankit/.pub-cache/hosted/pub.dev/vibration-1.8.4/android/src/release/res
+com.benjaminabel.vibration-release-6 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/device_info_plus/intermediates/packaged_res/release/packageReleaseResources
+com.benjaminabel.vibration-pngs-7 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/vibration/generated/res/pngs/release
+com.benjaminabel.vibration-resValues-8 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/vibration/generated/res/resValues/release
+com.benjaminabel.vibration-mergeReleaseResources-9 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/vibration/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.benjaminabel.vibration-mergeReleaseResources-10 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/vibration/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.benjaminabel.vibration-release-11 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/vibration/intermediates/merged_res/release/mergeReleaseResources

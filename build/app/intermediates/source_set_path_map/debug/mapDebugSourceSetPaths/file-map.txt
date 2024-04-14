@@ -1,0 +1,82 @@
+com.cheetah.math.trick.pro.app-jetified-savedstate-1.2.1-0 /home/ankit/.gradle/caches/transforms-3/0b9f6d401d1a8d6db71bf8f8ac4f352d/transformed/jetified-savedstate-1.2.1/res
+com.cheetah.math.trick.pro.app-localbroadcastmanager-1.1.0-1 /home/ankit/.gradle/caches/transforms-3/100f2e872586843394cbfee79ed4f1f7/transformed/localbroadcastmanager-1.1.0/res
+com.cheetah.math.trick.pro.app-jetified-ads-adservices-java-1.0.0-beta05-2 /home/ankit/.gradle/caches/transforms-3/151dad36614488c8a2cd3dfba9cad02e/transformed/jetified-ads-adservices-java-1.0.0-beta05/res
+com.cheetah.math.trick.pro.app-browser-1.5.0-3 /home/ankit/.gradle/caches/transforms-3/15a7dcc88a83bd1dd603978cc333c453/transformed/browser-1.5.0/res
+com.cheetah.math.trick.pro.app-jetified-play-services-base-18.0.1-4 /home/ankit/.gradle/caches/transforms-3/16f8b6de7e8eb0e64f6f3a95d478735f/transformed/jetified-play-services-base-18.0.1/res
+com.cheetah.math.trick.pro.app-jetified-play-services-measurement-api-21.5.0-5 /home/ankit/.gradle/caches/transforms-3/1b6181e5d8e541d487b7e377028d9769/transformed/jetified-play-services-measurement-api-21.5.0/res
+com.cheetah.math.trick.pro.app-lifecycle-livedata-core-2.6.2-6 /home/ankit/.gradle/caches/transforms-3/2ae278cd56e2977e805e1fa7187fc7a4/transformed/lifecycle-livedata-core-2.6.2/res
+com.cheetah.math.trick.pro.app-jetified-lifecycle-service-2.6.2-7 /home/ankit/.gradle/caches/transforms-3/2deca940a6528960f4cd0f58e5a146f8/transformed/jetified-lifecycle-service-2.6.2/res
+com.cheetah.math.trick.pro.app-jetified-window-1.0.0-beta04-8 /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/res
+com.cheetah.math.trick.pro.app-jetified-core-ktx-1.10.1-9 /home/ankit/.gradle/caches/transforms-3/38e7853187745d4252d3307baa1d860e/transformed/jetified-core-ktx-1.10.1/res
+com.cheetah.math.trick.pro.app-core-1.10.1-10 /home/ankit/.gradle/caches/transforms-3/3f2d6afefc92cb07fea263bb9f893346/transformed/core-1.10.1/res
+com.cheetah.math.trick.pro.app-jetified-annotation-experimental-1.3.0-11 /home/ankit/.gradle/caches/transforms-3/4009d6a9df7618dd6428c00387ec8905/transformed/jetified-annotation-experimental-1.3.0/res
+com.cheetah.math.trick.pro.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-12 /home/ankit/.gradle/caches/transforms-3/521a4e87331236f6068eaefbdabd725b/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/res
+com.cheetah.math.trick.pro.app-fragment-1.5.7-13 /home/ankit/.gradle/caches/transforms-3/62e55fe948310b8feeb09c0eebad22e2/transformed/fragment-1.5.7/res
+com.cheetah.math.trick.pro.app-work-runtime-2.7.0-14 /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/res
+com.cheetah.math.trick.pro.app-jetified-activity-1.6.0-15 /home/ankit/.gradle/caches/transforms-3/78e07b110b0d0b555572d57e227469ee/transformed/jetified-activity-1.6.0/res
+com.cheetah.math.trick.pro.app-webkit-1.7.0-16 /home/ankit/.gradle/caches/transforms-3/7b25b1903a8431a749aa10984c84aa5a/transformed/webkit-1.7.0/res
+com.cheetah.math.trick.pro.app-lifecycle-viewmodel-2.6.2-17 /home/ankit/.gradle/caches/transforms-3/9150261ffa1fbfcd095f120d2fdadc54/transformed/lifecycle-viewmodel-2.6.2/res
+com.cheetah.math.trick.pro.app-jetified-emoji2-1.2.0-18 /home/ankit/.gradle/caches/transforms-3/93249565ec912f1879cfa9813480b9aa/transformed/jetified-emoji2-1.2.0/res
+com.cheetah.math.trick.pro.app-core-runtime-2.2.0-19 /home/ankit/.gradle/caches/transforms-3/966ac8b93057c4c1347fa3ef3b222779/transformed/core-runtime-2.2.0/res
+com.cheetah.math.trick.pro.app-media-1.4.1-20 /home/ankit/.gradle/caches/transforms-3/9eea6185a364003c0f6d9c3e63eae973/transformed/media-1.4.1/res
+com.cheetah.math.trick.pro.app-jetified-datastore-preferences-1.0.0-21 /home/ankit/.gradle/caches/transforms-3/a204e94202644a618908b2362d37daa5/transformed/jetified-datastore-preferences-1.0.0/res
+com.cheetah.math.trick.pro.app-constraintlayout-2.1.4-22 /home/ankit/.gradle/caches/transforms-3/ae58c7fff4f70c1cb9f7765b01e1a9c8/transformed/constraintlayout-2.1.4/res
+com.cheetah.math.trick.pro.app-jetified-appcompat-resources-1.6.1-23 /home/ankit/.gradle/caches/transforms-3/b4f42ffd18f35151e1f851bb0985a5d9/transformed/jetified-appcompat-resources-1.6.1/res
+com.cheetah.math.trick.pro.app-jetified-emoji2-views-helper-1.2.0-24 /home/ankit/.gradle/caches/transforms-3/b7c692e8f2b379cf2e78a4792fa2eaaf/transformed/jetified-emoji2-views-helper-1.2.0/res
+com.cheetah.math.trick.pro.app-jetified-profileinstaller-1.3.0-25 /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/res
+com.cheetah.math.trick.pro.app-jetified-firebase-messaging-23.3.1-26 /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/res
+com.cheetah.math.trick.pro.app-jetified-media2-session-1.2.1-27 /home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/res
+com.cheetah.math.trick.pro.app-jetified-startup-runtime-1.1.1-28 /home/ankit/.gradle/caches/transforms-3/c955e69acf9c138d195870490cfa9ec9/transformed/jetified-startup-runtime-1.1.1/res
+com.cheetah.math.trick.pro.app-jetified-play-services-ads-lite-22.5.0-29 /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/res
+com.cheetah.math.trick.pro.app-jetified-lifecycle-process-2.6.2-30 /home/ankit/.gradle/caches/transforms-3/d1732101d6db3cb4dfdca3b8fa86358d/transformed/jetified-lifecycle-process-2.6.2/res
+com.cheetah.math.trick.pro.app-jetified-media2-common-1.2.1-31 /home/ankit/.gradle/caches/transforms-3/d1e4bff476bb06ab3e834b9256f93a78/transformed/jetified-media2-common-1.2.1/res
+com.cheetah.math.trick.pro.app-lifecycle-runtime-2.6.2-32 /home/ankit/.gradle/caches/transforms-3/d55fbf404d2bea75eb3fc4d013e46e53/transformed/lifecycle-runtime-2.6.2/res
+com.cheetah.math.trick.pro.app-jetified-play-services-ads-22.5.0-33 /home/ankit/.gradle/caches/transforms-3/d7e100dc74d3faa68616f92b3a02bdd7/transformed/jetified-play-services-ads-22.5.0/res
+com.cheetah.math.trick.pro.app-jetified-ads-adservices-1.0.0-beta05-34 /home/ankit/.gradle/caches/transforms-3/e34fb72c13c9e6a8e539a58d74e50cc8/transformed/jetified-ads-adservices-1.0.0-beta05/res
+com.cheetah.math.trick.pro.app-jetified-play-services-auth-21.0.0-35 /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/res
+com.cheetah.math.trick.pro.app-jetified-datastore-1.0.0-36 /home/ankit/.gradle/caches/transforms-3/ec3ffc330d84725877275da27c5e902b/transformed/jetified-datastore-1.0.0/res
+com.cheetah.math.trick.pro.app-jetified-play-services-basement-18.2.0-37 /home/ankit/.gradle/caches/transforms-3/ed0df9671f9cdeb95bded617bf9a837b/transformed/jetified-play-services-basement-18.2.0/res
+com.cheetah.math.trick.pro.app-lifecycle-livedata-2.6.2-38 /home/ankit/.gradle/caches/transforms-3/ed73ab3cd61c5417fdde7f423bc82f87/transformed/lifecycle-livedata-2.6.2/res
+com.cheetah.math.trick.pro.app-jetified-window-java-1.0.0-beta04-39 /home/ankit/.gradle/caches/transforms-3/f1af9cfccad66a9edeeb3878e5be6133/transformed/jetified-window-java-1.0.0-beta04/res
+com.cheetah.math.trick.pro.app-jetified-firebase-common-20.4.2-40 /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/res
+com.cheetah.math.trick.pro.app-jetified-exoplayer-core-2.18.7-41 /home/ankit/.gradle/caches/transforms-3/f872d8b1fbbc76d44cf676f2beb04244/transformed/jetified-exoplayer-core-2.18.7/res
+com.cheetah.math.trick.pro.app-appcompat-1.6.1-42 /home/ankit/.gradle/caches/transforms-3/fb1cabefbc1feec45b5b075f5316cbbe/transformed/appcompat-1.6.1/res
+com.cheetah.math.trick.pro.app-debug-43 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/debug/res
+com.cheetah.math.trick.pro.app-main-44 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/res
+com.cheetah.math.trick.pro.app-pngs-45 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/app/generated/res/pngs/debug
+com.cheetah.math.trick.pro.app-res-46 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/app/generated/res/processDebugGoogleServices
+com.cheetah.math.trick.pro.app-resValues-47 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/app/generated/res/resValues/debug
+com.cheetah.math.trick.pro.app-mergeDebugResources-48 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.cheetah.math.trick.pro.app-mergeDebugResources-49 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.cheetah.math.trick.pro.app-debug-50 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/app/intermediates/merged_res/debug/mergeDebugResources
+com.cheetah.math.trick.pro.app-debug-51 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/audio_session/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-52 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/audioplayers_android/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-53 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/device_info_plus/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-54 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_analytics/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-55 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_auth/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-56 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_core/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-57 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_crashlytics/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-58 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-59 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_remote_config/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-60 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_email_sender/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-61 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_local_notifications/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-62 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_share/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-63 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_timezone/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-64 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_tts/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-65 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/fluttertoast/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-66 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/google_mobile_ads/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-67 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/google_sign_in_android/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-68 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/just_audio/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-69 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/launch_review/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-70 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/package_info_plus/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-71 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/path_provider_android/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-72 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/permission_handler_android/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-73 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-74 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/shared_preferences_android/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-75 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/sqflite/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-76 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/url_launcher_android/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-77 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/vibration/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-78 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/video_player_android/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-79 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/volume_control/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-80 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/wakelock_plus/intermediates/packaged_res/debug/packageDebugResources
+com.cheetah.math.trick.pro.app-debug-81 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/webview_flutter_android/intermediates/packaged_res/debug/packageDebugResources

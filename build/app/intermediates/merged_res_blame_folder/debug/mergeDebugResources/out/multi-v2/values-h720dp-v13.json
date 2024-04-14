@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cheetah.math.trick.pro.app-mergeDebugResources-48:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/ankit/.gradle/caches/transforms-3/fb1cabefbc1feec45b5b075f5316cbbe/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

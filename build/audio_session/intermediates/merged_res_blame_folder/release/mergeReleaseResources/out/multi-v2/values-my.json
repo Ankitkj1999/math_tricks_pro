@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ryanheise.audio_session-mergeReleaseResources-10:/values-my/values-my.xml",
+            "map": [
+                {
+                    "source": "/home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/res/values-my/values-my.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,159,259,357,484",
+                        "endColumns": "103,99,97,126,132",
+                        "endOffsets": "154,254,352,479,612"
+                    }
+                },
+                {
+                    "source": "/home/ankit/.gradle/caches/transforms-3/296279ed31ff2ba9f8efc998915886a4/transformed/core-1.6.0/res/values-my/values-my.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "617",
+                        "endColumns": "100",
+                        "endOffsets": "713"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.ryanheise.audio_session-release-12:/values-my/values-my.xml",
+            "map": [
+                {
+                    "source": "/home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/res/values-my/values-my.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,159,259,357,484",
+                        "endColumns": "103,99,97,126,132",
+                        "endOffsets": "154,254,352,479,612"
+                    }
+                },
+                {
+                    "source": "/home/ankit/.gradle/caches/transforms-3/296279ed31ff2ba9f8efc998915886a4/transformed/core-1.6.0/res/values-my/values-my.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "617",
+                        "endColumns": "100",
+                        "endOffsets": "713"
+                    }
+                }
+            ]
+        }
+    ]
+}

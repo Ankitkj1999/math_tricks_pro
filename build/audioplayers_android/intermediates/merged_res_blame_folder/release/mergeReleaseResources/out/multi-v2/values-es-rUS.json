@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "xyz.luan.audioplayers.audioplayers_android-release-11:/values-es-rUS/values-es-rUS.xml",
+            "map": [
+                {
+                    "source": "/home/ankit/.gradle/caches/transforms-3/43fb6165797ad15996182f9ed5eec77e/transformed/core-1.9.0/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "xyz.luan.audioplayers.audioplayers_android-mergeReleaseResources-9:/values-es-rUS/values-es-rUS.xml",
+            "map": [
+                {
+                    "source": "/home/ankit/.gradle/caches/transforms-3/43fb6165797ad15996182f9ed5eec77e/transformed/core-1.9.0/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

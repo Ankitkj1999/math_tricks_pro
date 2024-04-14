@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.flutter.plugins.googlemobileads.google_mobile_ads-mergeReleaseResources-29:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/ankit/.gradle/caches/transforms-3/48667f6acc6faa0eb3407eba6e6fbe64/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "io.flutter.plugins.googlemobileads.google_mobile_ads-release-31:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/ankit/.gradle/caches/transforms-3/48667f6acc6faa0eb3407eba6e6fbe64/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

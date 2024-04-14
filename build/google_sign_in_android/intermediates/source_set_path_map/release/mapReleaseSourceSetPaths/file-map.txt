@@ -1,0 +1,21 @@
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-play-services-base-18.0.1-0 /home/ankit/.gradle/caches/transforms-3/16f8b6de7e8eb0e64f6f3a95d478735f/transformed/jetified-play-services-base-18.0.1/res
+io.flutter.plugins.googlesignin.google_sign_in_android-lifecycle-livedata-core-2.5.1-1 /home/ankit/.gradle/caches/transforms-3/18278741b87f2301225ba7827fb9a5b4/transformed/lifecycle-livedata-core-2.5.1/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-annotation-experimental-1.1.0-2 /home/ankit/.gradle/caches/transforms-3/1f5760441220db968400be4605b620bc/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-window-1.0.0-beta04-3 /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-savedstate-1.2.0-4 /home/ankit/.gradle/caches/transforms-3/405ce4b7517a44b8acb90c77b21695c7/transformed/jetified-savedstate-1.2.0/res
+io.flutter.plugins.googlesignin.google_sign_in_android-core-1.8.0-5 /home/ankit/.gradle/caches/transforms-3/50580891c3bdd81da574ce17a299f54d/transformed/core-1.8.0/res
+io.flutter.plugins.googlesignin.google_sign_in_android-fragment-1.5.7-6 /home/ankit/.gradle/caches/transforms-3/62e55fe948310b8feeb09c0eebad22e2/transformed/fragment-1.5.7/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-lifecycle-viewmodel-savedstate-2.5.1-7 /home/ankit/.gradle/caches/transforms-3/7bf0fcec603b919721f5ac79fea2fad2/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-activity-1.5.1-8 /home/ankit/.gradle/caches/transforms-3/a767ce4ed3c1ec779ec07911ce02c848/transformed/jetified-activity-1.5.1/res
+io.flutter.plugins.googlesignin.google_sign_in_android-lifecycle-viewmodel-2.5.1-9 /home/ankit/.gradle/caches/transforms-3/b83a7b329063bd19ee4dabe7964b1328/transformed/lifecycle-viewmodel-2.5.1/res
+io.flutter.plugins.googlesignin.google_sign_in_android-lifecycle-runtime-2.5.1-10 /home/ankit/.gradle/caches/transforms-3/e757babb4ae6e9bc13309980df9fec11/transformed/lifecycle-runtime-2.5.1/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-play-services-auth-21.0.0-11 /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-play-services-basement-18.2.0-12 /home/ankit/.gradle/caches/transforms-3/ed0df9671f9cdeb95bded617bf9a837b/transformed/jetified-play-services-basement-18.2.0/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-window-java-1.0.0-beta04-13 /home/ankit/.gradle/caches/transforms-3/f1af9cfccad66a9edeeb3878e5be6133/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.googlesignin.google_sign_in_android-main-14 /home/ankit/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.22/android/src/main/res
+io.flutter.plugins.googlesignin.google_sign_in_android-release-15 /home/ankit/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.22/android/src/release/res
+io.flutter.plugins.googlesignin.google_sign_in_android-pngs-16 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/google_sign_in_android/generated/res/pngs/release
+io.flutter.plugins.googlesignin.google_sign_in_android-resValues-17 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/google_sign_in_android/generated/res/resValues/release
+io.flutter.plugins.googlesignin.google_sign_in_android-mergeReleaseResources-18 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/google_sign_in_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.googlesignin.google_sign_in_android-mergeReleaseResources-19 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/google_sign_in_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.googlesignin.google_sign_in_android-release-20 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/google_sign_in_android/intermediates/merged_res/release/mergeReleaseResources

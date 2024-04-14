@@ -1,0 +1,7 @@
+#Sun Apr 14 22:09:30 IST 2024
+base.0=/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+base.1=/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/app/intermediates/dex/release/minifyReleaseWithR8/classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

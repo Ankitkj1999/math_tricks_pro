@@ -1,0 +1,31 @@
+<variant
+    name="release"
+    package="net.wolverinebeach.flutter_timezone"
+    minSdkVersion="16"
+    targetSdkVersion="33"
+    mergedManifest="/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_timezone/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
+    proguardFiles="/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_timezone/intermediates/default_proguard_files/global/proguard-android.txt-8.3.1"
+    partialResultsDir="/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_timezone/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
+    desugaredMethodsFiles="/home/ankit/.gradle/caches/transforms-3/29b1117fa39f6e1ea67d0c98c8a187c3/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin:src/release/java:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_timezone/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_timezone/tmp/kotlin-classes/release:/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_timezone/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
+      type="MAIN"
+      applicationId="net.wolverinebeach.flutter_timezone"
+      generatedSourceFolders="/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_timezone/generated/ap_generated_sources/release/out:/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_timezone/generated/source/buildConfig/release"
+      generatedResourceFolders="/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_timezone/generated/res/resValues/release"
+      desugaredMethodsFiles="/home/ankit/.gradle/caches/transforms-3/29b1117fa39f6e1ea67d0c98c8a187c3/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

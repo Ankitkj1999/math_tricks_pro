@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "904742737185",
+    "project_id": "remath-pro",
+    "storage_bucket": "remath-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904742737185:android:35e631cb360cda96c19a60",
+        "android_client_info": {
+          "package_name": "com.ankitkumar.maths_tricks_alpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904742737185-vi7mhskbmv2u1v1c9rgrfvggobjeurn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf-Np_jbILdcfoBrojLi7Qnd4B0Jl1Ap8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904742737185-vi7mhskbmv2u1v1c9rgrfvggobjeurn1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "904742737185-fl04n2gid0d5idi1js4qlpu7q42nvmvk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterMathsTricks"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904742737185:android:2c01a83043eddff1c19a60",
+        "android_client_info": {
+          "package_name": "com.cheetah.math.trick.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904742737185-fv4mi8v0hift30n6iulv4087o4kcp7au.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cheetah.math.trick.pro",
+            "certificate_hash": "058ef758ce1d3646f33d8e29cf27b6aba3b14971"
+          }
+        },
+        {
+          "client_id": "904742737185-qntrbp6vr1rn7i4u596cmhljeb3phvfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cheetah.math.trick.pro",
+            "certificate_hash": "79b441b184f80f4b55be32c634b5e9f06c57b495"
+          }
+        },
+        {
+          "client_id": "904742737185-vi7mhskbmv2u1v1c9rgrfvggobjeurn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf-Np_jbILdcfoBrojLi7Qnd4B0Jl1Ap8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904742737185-vi7mhskbmv2u1v1c9rgrfvggobjeurn1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "904742737185-fl04n2gid0d5idi1js4qlpu7q42nvmvk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterMathsTricks"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

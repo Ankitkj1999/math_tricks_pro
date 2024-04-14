@@ -1,0 +1,14 @@
+com.ryanheise.audio_session-jetified-annotation-experimental-1.1.0-0 /home/ankit/.gradle/caches/transforms-3/1f5760441220db968400be4605b620bc/transformed/jetified-annotation-experimental-1.1.0/res
+com.ryanheise.audio_session-core-1.6.0-1 /home/ankit/.gradle/caches/transforms-3/296279ed31ff2ba9f8efc998915886a4/transformed/core-1.6.0/res
+com.ryanheise.audio_session-jetified-window-1.0.0-beta04-2 /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/res
+com.ryanheise.audio_session-media-1.4.1-3 /home/ankit/.gradle/caches/transforms-3/9eea6185a364003c0f6d9c3e63eae973/transformed/media-1.4.1/res
+com.ryanheise.audio_session-jetified-media2-session-1.2.1-4 /home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/res
+com.ryanheise.audio_session-jetified-media2-common-1.2.1-5 /home/ankit/.gradle/caches/transforms-3/d1e4bff476bb06ab3e834b9256f93a78/transformed/jetified-media2-common-1.2.1/res
+com.ryanheise.audio_session-jetified-window-java-1.0.0-beta04-6 /home/ankit/.gradle/caches/transforms-3/f1af9cfccad66a9edeeb3878e5be6133/transformed/jetified-window-java-1.0.0-beta04/res
+com.ryanheise.audio_session-main-7 /home/ankit/.pub-cache/hosted/pub.dev/audio_session-0.1.18/android/src/main/res
+com.ryanheise.audio_session-release-8 /home/ankit/.pub-cache/hosted/pub.dev/audio_session-0.1.18/android/src/release/res
+com.ryanheise.audio_session-pngs-9 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/audio_session/generated/res/pngs/release
+com.ryanheise.audio_session-resValues-10 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/audio_session/generated/res/resValues/release
+com.ryanheise.audio_session-mergeReleaseResources-11 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/audio_session/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.ryanheise.audio_session-mergeReleaseResources-12 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/audio_session/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.ryanheise.audio_session-release-13 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/audio_session/intermediates/merged_res/release/mergeReleaseResources

@@ -1,0 +1,16 @@
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-annotation-experimental-1.1.0-0 /home/ankit/.gradle/caches/transforms-3/1f5760441220db968400be4605b620bc/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-core-1.6.0-1 /home/ankit/.gradle/caches/transforms-3/296279ed31ff2ba9f8efc998915886a4/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-window-1.0.0-beta04-2 /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-play-services-basement-18.1.0-3 /home/ankit/.gradle/caches/transforms-3/3d2fc95333bca5dabcef49b0da59b765/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-datastore-preferences-1.0.0-4 /home/ankit/.gradle/caches/transforms-3/a204e94202644a618908b2362d37daa5/transformed/jetified-datastore-preferences-1.0.0/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-datastore-1.0.0-5 /home/ankit/.gradle/caches/transforms-3/ec3ffc330d84725877275da27c5e902b/transformed/jetified-datastore-1.0.0/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-window-java-1.0.0-beta04-6 /home/ankit/.gradle/caches/transforms-3/f1af9cfccad66a9edeeb3878e5be6133/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-firebase-common-20.4.2-7 /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-main-8 /home/ankit/.pub-cache/hosted/pub.dev/firebase_crashlytics-3.4.9/android/src/main/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-release-9 /home/ankit/.pub-cache/hosted/pub.dev/firebase_crashlytics-3.4.9/android/src/release/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-release-10 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_core/intermediates/packaged_res/release/packageReleaseResources
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-pngs-11 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_crashlytics/generated/res/pngs/release
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-resValues-12 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_crashlytics/generated/res/resValues/release
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-mergeReleaseResources-13 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_crashlytics/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-mergeReleaseResources-14 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_crashlytics/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-release-15 /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_crashlytics/intermediates/merged_res/release/mergeReleaseResources

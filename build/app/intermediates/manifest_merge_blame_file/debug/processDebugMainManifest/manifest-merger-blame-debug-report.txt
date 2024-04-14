@@ -1,0 +1,1125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- <manifest xmlns:android="http://schemas.android.com/apk/res/android"> -->
+3<!-- &lt;!&ndash; The INTERNET permission is required for development. Specifically, -->
+4<!-- the Flutter tool needs it to communicate with the running application -->
+5<!-- to allow setting breakpoints, to provide hot reload, etc. -->
+6<!-- &ndash;&gt; -->
+7<!-- <uses-permission android:name="android.permission.INTERNET"/> -->
+8<!-- </manifest> -->
+9<!-- <manifest xmlns:android="http://schemas.android.com/apk/res/android" -->
+10<!-- xmlns:tools="http://schemas.android.com/tools"> -->
+11<!-- <application> -->
+12<!-- <meta-data -->
+13<!-- android:name="android.adservices.AD_SERVICES_CONFIG" -->
+14<!-- android:resource="@xml/ga_ad_services_config" -->
+15<!-- tools:replace="android:resource" /> -->
+16<!-- &lt;!&ndash; Other application components &ndash;&gt; -->
+17<!-- </application> -->
+18<!-- &lt;!&ndash; Other permissions and manifest elements &ndash;&gt; -->
+19<!-- <uses-permission android:name="android.permission.INTERNET"/> -->
+20<!-- </manifest> -->
+21<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+22    package="com.cheetah.math.trick.pro"
+23    android:versionCode="31"
+24    android:versionName="1.0.3" >
+25
+26    <uses-sdk
+27        android:minSdkVersion="21"
+28        android:targetSdkVersion="33" />
+29
+30    <!-- Other permissions and manifest elements -->
+31    <uses-permission android:name="android.permission.INTERNET" />
+31-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:3:5-66
+31-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:3:22-64
+32
+33    <!-- <uses-permission android:name="android.permission.VIBRATE"/> -->
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+34-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:5:5-80
+34-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:5:22-78
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:6:5-67
+35-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:6:22-65
+36    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+36-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:7:5-79
+36-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:7:22-76
+37    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+37-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:8:4-80
+37-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:8:21-77
+38    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+38-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:9:5-76
+38-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:9:22-74
+39    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+39-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:10:5-78
+39-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:10:22-76
+40
+41    <queries>
+41-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:12:5-28:15
+42
+43        <!-- If your app checks for SMS support -->
+44        <intent>
+44-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:14:9-17:18
+45            <action android:name="android.intent.action.VIEW" />
+45-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:15:13-65
+45-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:15:21-62
+46
+47            <data android:scheme="sms" />
+47-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:13-42
+47-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:19-39
+48        </intent>
+49        <!-- If your app checks for call support -->
+50        <intent>
+50-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:19:9-22:18
+51            <action android:name="android.intent.action.VIEW" />
+51-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:15:13-65
+51-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:15:21-62
+52
+53            <data android:scheme="tel" />
+53-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:13-42
+53-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:19-39
+54        </intent>
+55        <intent>
+55-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:24:9-27:18
+56            <action android:name="android.intent.action.SENDTO" />
+56-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:25:13-67
+56-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:25:21-64
+57
+58            <data android:scheme="mailto" />
+58-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:13-42
+58-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:19-39
+59        </intent>
+60        <!-- For browser content -->
+61        <intent>
+61-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:38:9-44:18
+62            <action android:name="android.intent.action.VIEW" />
+62-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:15:13-65
+62-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:15:21-62
+63
+64            <category android:name="android.intent.category.BROWSABLE" />
+64-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+64-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+65
+66            <data android:scheme="https" />
+66-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:13-42
+66-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:19-39
+67        </intent> <!-- End of browser content -->
+68        <!-- For CustomTabsService -->
+69        <intent>
+69-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:47:9-49:18
+70            <action android:name="android.support.customtabs.action.CustomTabsService" />
+70-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:48:13-90
+70-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:48:21-87
+71        </intent>
+72        <intent>
+72-->[androidx.media2:media2-session:1.2.1] /home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:25:9-27:18
+73            <action android:name="android.media.browse.MediaBrowserService" />
+73-->[androidx.media2:media2-session:1.2.1] /home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:13-79
+73-->[androidx.media2:media2-session:1.2.1] /home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:21-76
+74        </intent>
+75        <intent>
+75-->[androidx.media2:media2-session:1.2.1] /home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:28:9-30:18
+76            <action android:name="androidx.media2.session.MediaSessionService" />
+76-->[androidx.media2:media2-session:1.2.1] /home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:13-82
+76-->[androidx.media2:media2-session:1.2.1] /home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:21-79
+77        </intent>
+78        <intent>
+78-->[androidx.media2:media2-session:1.2.1] /home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:31:9-33:18
+79            <action android:name="androidx.media2.session.MediaLibraryService" />
+79-->[androidx.media2:media2-session:1.2.1] /home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:13-82
+79-->[androidx.media2:media2-session:1.2.1] /home/ankit/.gradle/caches/transforms-3/c5ebf0b6d0210b1edbdb83988fbcb8fc/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:21-79
+80        </intent>
+81    </queries>
+82
+83    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+83-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-79
+83-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-76
+84    <uses-permission android:name="android.permission.VIBRATE" />
+84-->[:flutter_local_notifications] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_local_notifications/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-66
+84-->[:flutter_local_notifications] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_local_notifications/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-63
+85    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+85-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/ankit/.gradle/caches/transforms-3/41bcc00c70fde87179f51ff8fc2b9f1d/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+85-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/ankit/.gradle/caches/transforms-3/41bcc00c70fde87179f51ff8fc2b9f1d/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+86    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+86-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:26:5-110
+86-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:26:22-107
+87    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+87-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:27:5-82
+87-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:27:22-79
+88    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+88-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:28:5-88
+88-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:28:22-85
+89    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+89-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:29:5-83
+89-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:29:22-80
+90    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+90-->[com.google.firebase:firebase-iid:21.1.0] /home/ankit/.gradle/caches/transforms-3/b81b80d457e938cd0a79053901f17866/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+90-->[com.google.firebase:firebase-iid:21.1.0] /home/ankit/.gradle/caches/transforms-3/b81b80d457e938cd0a79053901f17866/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+91    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+91-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+91-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+92
+93    <permission
+93-->[androidx.core:core:1.10.1] /home/ankit/.gradle/caches/transforms-3/3f2d6afefc92cb07fea263bb9f893346/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+94        android:name="com.cheetah.math.trick.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+94-->[androidx.core:core:1.10.1] /home/ankit/.gradle/caches/transforms-3/3f2d6afefc92cb07fea263bb9f893346/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+95        android:protectionLevel="signature" />
+95-->[androidx.core:core:1.10.1] /home/ankit/.gradle/caches/transforms-3/3f2d6afefc92cb07fea263bb9f893346/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+96
+97    <uses-permission android:name="com.cheetah.math.trick.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+97-->[androidx.core:core:1.10.1] /home/ankit/.gradle/caches/transforms-3/3f2d6afefc92cb07fea263bb9f893346/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+97-->[androidx.core:core:1.10.1] /home/ankit/.gradle/caches/transforms-3/3f2d6afefc92cb07fea263bb9f893346/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+98
+99    <application
+100        android:name="android.app.Application"
+100-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:33:9-42
+101        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+101-->[androidx.core:core:1.10.1] /home/ankit/.gradle/caches/transforms-3/3f2d6afefc92cb07fea263bb9f893346/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+102        android:debuggable="true"
+103        android:extractNativeLibs="true"
+104        android:icon="@mipmap/launcher_icon"
+104-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:34:9-45
+105        android:label="Math Pro " >
+105-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:32:9-34
+106        <property
+106-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/debug/AndroidManifest.xml:30:9-33:48
+107            android:name="android.adservices.AD_SERVICES_CONFIG"
+107-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/debug/AndroidManifest.xml:31:13-65
+108            android:resource="@xml/ga_ad_services_config" />
+108-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/debug/AndroidManifest.xml:32:13-58
+109
+110        <!-- Other application components -->
+111
+112        <provider
+113            android:name="androidx.core.content.FileProvider"
+114            android:authorities="com.cheetah.math.trick.pro.provider"
+115            android:exported="false"
+116            android:grantUriPermissions="true" >
+117            <meta-data
+117-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:13-20:68
+118                android:name="android.support.FILE_PROVIDER_PATHS"
+118-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:17-67
+119                android:resource="@xml/provider_paths" />
+119-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:17-65
+120        </provider>
+121
+122        <receiver
+122-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:50:9-131
+123            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+123-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:50:44-128
+124            android:exported="false" />
+124-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:50:19-43
+125        <receiver
+125-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:51:9-58:20
+126            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+126-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:51:44-132
+127            android:exported="false" >
+127-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:51:19-43
+128            <intent-filter>
+128-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:52:13-57:29
+129                <action android:name="android.intent.action.BOOT_COMPLETED" />
+129-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:53:17-78
+129-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:53:25-76
+130                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+130-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:54:17-83
+130-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:54:25-81
+131                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+131-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:55:17-82
+131-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:55:25-79
+132                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+132-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:56:17-81
+132-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:56:25-79
+133            </intent-filter>
+134        </receiver>
+135
+136        <meta-data
+136-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:60:9-62:68
+137            android:name="com.google.android.gms.ads.APPLICATION_ID"
+137-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:61:12-68
+138            android:value="ca-app-pub-6812505161150117~1849565806" />
+138-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:62:12-66
+139
+140        <activity
+140-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:64:9-98:20
+141            android:name="com.cheetah.math.trick.pro.MainActivity"
+141-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:68:13-41
+142            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+142-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:72:13-163
+143            android:exported="true"
+143-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:69:13-36
+144            android:hardwareAccelerated="true"
+144-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:73:13-47
+145            android:launchMode="singleTop"
+145-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:70:13-43
+146            android:showWhenLocked="true"
+146-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:65:13-42
+147            android:theme="@style/LaunchTheme"
+147-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:71:13-47
+148            android:turnScreenOn="true"
+148-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:66:13-40
+149            android:windowSoftInputMode="adjustResize" >
+149-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:74:13-55
+150
+151            <!--
+152                 Specifies an Android theme to apply to this Activity as soon as
+153                 the Android process has started. This theme is visible to the user
+154                 while the Flutter UI initializes. After that, this theme continues
+155                 to determine the Window background behind the Flutter UI.
+156            -->
+157            <meta-data
+157-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:79:13-82:17
+158                android:name="io.flutter.embedding.android.NormalTheme"
+158-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:80:15-70
+159                android:resource="@style/NormalTheme" />
+159-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:81:15-52
+160            <!-- for firebase notification -->
+161            <meta-data
+161-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:84:13-86:51
+162                android:name="com.google.firebase.messaging.default_notification_channel_id"
+162-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:85:17-93
+163                android:value="Test_channed_id" />
+163-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:86:17-48
+164
+165            <intent-filter>
+165-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:88:13-91:29
+166                <action android:name="android.intent.action.MAIN" />
+166-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:89:17-68
+166-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:89:25-66
+167
+168                <category android:name="android.intent.category.LAUNCHER" />
+168-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:90:17-76
+168-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:90:27-74
+169            </intent-filter>
+170            <intent-filter>
+170-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:92:13-95:29
+171                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+171-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:93:17-69
+171-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:93:25-66
+172
+173                <category android:name="android.intent.category.DEFAULT" />
+173-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:94:17-76
+173-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:94:27-73
+174            </intent-filter>
+175        </activity>
+176        <!--
+177 Don't delete the meta-data below.
+178             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+179        -->
+180        <meta-data
+180-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:101:9-103:33
+181            android:name="flutterEmbedding"
+181-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:102:13-44
+182            android:value="2" />
+182-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:103:13-30
+183
+184        <service
+184-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:9-17:72
+185            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+185-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-107
+186            android:exported="false"
+186-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-37
+187            android:permission="android.permission.BIND_JOB_SERVICE" />
+187-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:13-69
+188        <service
+188-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:9-24:19
+189            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+189-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:13-97
+190            android:exported="false" >
+190-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-37
+191            <intent-filter>
+191-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-23:29
+192                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+192-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:17-78
+192-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:25-75
+193            </intent-filter>
+194        </service>
+195
+196        <receiver
+196-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:9-33:20
+197            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+197-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:13-98
+198            android:exported="true"
+198-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-36
+199            android:permission="com.google.android.c2dm.permission.SEND" >
+199-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:13-73
+200            <intent-filter>
+200-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:13-32:29
+201                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+201-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:31:17-81
+201-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:31:25-78
+202            </intent-filter>
+203        </receiver>
+204
+205        <service
+205-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:35:9-39:19
+206            android:name="com.google.firebase.components.ComponentDiscoveryService"
+206-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:35:18-89
+207            android:directBootAware="true"
+207-->[com.google.firebase:firebase-common:20.4.2] /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+208            android:exported="false" >
+208-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:68:13-37
+209            <meta-data
+209-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:36:13-38:85
+210                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+210-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:37:17-128
+211                android:value="com.google.firebase.components.ComponentRegistrar" />
+211-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:38:17-82
+212            <meta-data
+212-->[:firebase_crashlytics] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_crashlytics/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-11:85
+213                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+213-->[:firebase_crashlytics] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_crashlytics/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:17-130
+214                android:value="com.google.firebase.components.ComponentRegistrar" />
+214-->[:firebase_crashlytics] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_crashlytics/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:17-82
+215            <meta-data
+215-->[:firebase_analytics] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_analytics/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-15:85
+216                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+216-->[:firebase_analytics] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_analytics/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:17-128
+217                android:value="com.google.firebase.components.ComponentRegistrar" />
+217-->[:firebase_analytics] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_analytics/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-82
+218            <meta-data
+218-->[:firebase_auth] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_auth/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-11:85
+219                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+219-->[:firebase_auth] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_auth/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:17-124
+220                android:value="com.google.firebase.components.ComponentRegistrar" />
+220-->[:firebase_auth] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_auth/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:17-82
+221            <meta-data
+221-->[:firebase_remote_config] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-11:85
+222                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firebaseremoteconfig.FlutterFirebaseAppRegistrar"
+222-->[:firebase_remote_config] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:17-139
+223                android:value="com.google.firebase.components.ComponentRegistrar" />
+223-->[:firebase_remote_config] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:17-82
+224            <meta-data
+224-->[:firebase_core] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-11:85
+225                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+225-->[:firebase_core] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:17-124
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[:firebase_core] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:17-82
+227            <meta-data
+227-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
+228                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+228-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
+230            <meta-data
+230-->[com.google.firebase:firebase-iid:21.1.0] /home/ankit/.gradle/caches/transforms-3/b81b80d457e938cd0a79053901f17866/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+231                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+231-->[com.google.firebase:firebase-iid:21.1.0] /home/ankit/.gradle/caches/transforms-3/b81b80d457e938cd0a79053901f17866/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[com.google.firebase:firebase-iid:21.1.0] /home/ankit/.gradle/caches/transforms-3/b81b80d457e938cd0a79053901f17866/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+233            <meta-data
+233-->[com.google.firebase:firebase-config:21.6.0] /home/ankit/.gradle/caches/transforms-3/af802df32a9489bbacac0e0755fdde46/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:29:13-31:85
+234                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+234-->[com.google.firebase:firebase-config:21.6.0] /home/ankit/.gradle/caches/transforms-3/af802df32a9489bbacac0e0755fdde46/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:30:17-128
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-config:21.6.0] /home/ankit/.gradle/caches/transforms-3/af802df32a9489bbacac0e0755fdde46/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:31:17-82
+236            <meta-data
+236-->[com.google.firebase:firebase-config:21.6.0] /home/ankit/.gradle/caches/transforms-3/af802df32a9489bbacac0e0755fdde46/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:32:13-34:85
+237                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+237-->[com.google.firebase:firebase-config:21.6.0] /home/ankit/.gradle/caches/transforms-3/af802df32a9489bbacac0e0755fdde46/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:33:17-117
+238                android:value="com.google.firebase.components.ComponentRegistrar" />
+238-->[com.google.firebase:firebase-config:21.6.0] /home/ankit/.gradle/caches/transforms-3/af802df32a9489bbacac0e0755fdde46/transformed/jetified-firebase-config-21.6.0/AndroidManifest.xml:34:17-82
+239            <meta-data
+239-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:57:13-59:85
+240                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+240-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:58:17-122
+241                android:value="com.google.firebase.components.ComponentRegistrar" />
+241-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:59:17-82
+242            <meta-data
+242-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:60:13-62:85
+243                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+243-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:61:17-119
+244                android:value="com.google.firebase.components.ComponentRegistrar" />
+244-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:62:17-82
+245            <meta-data
+245-->[com.google.firebase:firebase-crashlytics:18.6.0] /home/ankit/.gradle/caches/transforms-3/da9b88c1cff21128af4e1ed64dfb778b/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:15:13-17:85
+246                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+246-->[com.google.firebase:firebase-crashlytics:18.6.0] /home/ankit/.gradle/caches/transforms-3/da9b88c1cff21128af4e1ed64dfb778b/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:16:17-126
+247                android:value="com.google.firebase.components.ComponentRegistrar" />
+247-->[com.google.firebase:firebase-crashlytics:18.6.0] /home/ankit/.gradle/caches/transforms-3/da9b88c1cff21128af4e1ed64dfb778b/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:17:17-82
+248            <meta-data
+248-->[com.google.firebase:firebase-crashlytics:18.6.0] /home/ankit/.gradle/caches/transforms-3/da9b88c1cff21128af4e1ed64dfb778b/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:18:13-20:85
+249                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+249-->[com.google.firebase:firebase-crashlytics:18.6.0] /home/ankit/.gradle/caches/transforms-3/da9b88c1cff21128af4e1ed64dfb778b/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:19:17-115
+250                android:value="com.google.firebase.components.ComponentRegistrar" />
+250-->[com.google.firebase:firebase-crashlytics:18.6.0] /home/ankit/.gradle/caches/transforms-3/da9b88c1cff21128af4e1ed64dfb778b/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:20:17-82
+251            <meta-data
+251-->[com.google.android.gms:play-services-measurement-api:21.5.0] /home/ankit/.gradle/caches/transforms-3/1b6181e5d8e541d487b7e377028d9769/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:37:13-39:85
+252                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+252-->[com.google.android.gms:play-services-measurement-api:21.5.0] /home/ankit/.gradle/caches/transforms-3/1b6181e5d8e541d487b7e377028d9769/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:38:17-139
+253                android:value="com.google.firebase.components.ComponentRegistrar" />
+253-->[com.google.android.gms:play-services-measurement-api:21.5.0] /home/ankit/.gradle/caches/transforms-3/1b6181e5d8e541d487b7e377028d9769/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:39:17-82
+254            <meta-data
+254-->[com.google.firebase:firebase-sessions:1.2.0] /home/ankit/.gradle/caches/transforms-3/bb21209df23a5b64c928727f9d0d81dd/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:29:13-31:85
+255                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+255-->[com.google.firebase:firebase-sessions:1.2.0] /home/ankit/.gradle/caches/transforms-3/bb21209df23a5b64c928727f9d0d81dd/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:30:17-117
+256                android:value="com.google.firebase.components.ComponentRegistrar" />
+256-->[com.google.firebase:firebase-sessions:1.2.0] /home/ankit/.gradle/caches/transforms-3/bb21209df23a5b64c928727f9d0d81dd/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:31:17-82
+257            <meta-data
+257-->[com.google.firebase:firebase-installations:17.2.0] /home/ankit/.gradle/caches/transforms-3/8318645a8dee7bafad5ace4c7a040a1c/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+258                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+258-->[com.google.firebase:firebase-installations:17.2.0] /home/ankit/.gradle/caches/transforms-3/8318645a8dee7bafad5ace4c7a040a1c/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.firebase:firebase-installations:17.2.0] /home/ankit/.gradle/caches/transforms-3/8318645a8dee7bafad5ace4c7a040a1c/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+260            <meta-data
+260-->[com.google.firebase:firebase-installations:17.2.0] /home/ankit/.gradle/caches/transforms-3/8318645a8dee7bafad5ace4c7a040a1c/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+261                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+261-->[com.google.firebase:firebase-installations:17.2.0] /home/ankit/.gradle/caches/transforms-3/8318645a8dee7bafad5ace4c7a040a1c/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+262                android:value="com.google.firebase.components.ComponentRegistrar" />
+262-->[com.google.firebase:firebase-installations:17.2.0] /home/ankit/.gradle/caches/transforms-3/8318645a8dee7bafad5ace4c7a040a1c/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+263            <meta-data
+263-->[com.google.firebase:firebase-common-ktx:20.4.2] /home/ankit/.gradle/caches/transforms-3/1ade431b1612d58f54d82a67069b688e/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+264                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+264-->[com.google.firebase:firebase-common-ktx:20.4.2] /home/ankit/.gradle/caches/transforms-3/1ade431b1612d58f54d82a67069b688e/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+265                android:value="com.google.firebase.components.ComponentRegistrar" />
+265-->[com.google.firebase:firebase-common-ktx:20.4.2] /home/ankit/.gradle/caches/transforms-3/1ade431b1612d58f54d82a67069b688e/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+266            <meta-data
+266-->[com.google.firebase:firebase-common:20.4.2] /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+267                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+267-->[com.google.firebase:firebase-common:20.4.2] /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+268                android:value="com.google.firebase.components.ComponentRegistrar" />
+268-->[com.google.firebase:firebase-common:20.4.2] /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+269            <meta-data
+269-->[com.google.firebase:firebase-abt:21.1.1] /home/ankit/.gradle/caches/transforms-3/653f631ee2cd9c2dd88f8ef7aea4c09d/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+270                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+270-->[com.google.firebase:firebase-abt:21.1.1] /home/ankit/.gradle/caches/transforms-3/653f631ee2cd9c2dd88f8ef7aea4c09d/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+271                android:value="com.google.firebase.components.ComponentRegistrar" />
+271-->[com.google.firebase:firebase-abt:21.1.1] /home/ankit/.gradle/caches/transforms-3/653f631ee2cd9c2dd88f8ef7aea4c09d/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+272            <meta-data
+272-->[com.google.firebase:firebase-datatransport:18.1.8] /home/ankit/.gradle/caches/transforms-3/8dddd2ac444d38b3c4bea4b7ee2a5230/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+273                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+273-->[com.google.firebase:firebase-datatransport:18.1.8] /home/ankit/.gradle/caches/transforms-3/8dddd2ac444d38b3c4bea4b7ee2a5230/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+274                android:value="com.google.firebase.components.ComponentRegistrar" />
+274-->[com.google.firebase:firebase-datatransport:18.1.8] /home/ankit/.gradle/caches/transforms-3/8dddd2ac444d38b3c4bea4b7ee2a5230/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+275        </service>
+276
+277        <provider
+277-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:41:9-45:38
+278            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+278-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:42:13-102
+279            android:authorities="com.cheetah.math.trick.pro.flutterfirebasemessaginginitprovider"
+279-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:43:13-88
+280            android:exported="false"
+280-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:44:13-37
+281            android:initOrder="99" />
+281-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:45:13-35
+282
+283        <meta-data
+283-->[:google_mobile_ads] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/google_mobile_ads/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:9-12:36
+284            android:name="io.flutter.embedded_views_preview"
+284-->[:google_mobile_ads] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/google_mobile_ads/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-61
+285            android:value="true" />
+285-->[:google_mobile_ads] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/google_mobile_ads/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-33
+286        <!--
+287           Declares a provider which allows us to store files to share in
+288           '.../caches/share_plus' and grant the receiving action access
+289        -->
+290        <provider
+290-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:9-21:20
+291            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+291-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-77
+292            android:authorities="com.cheetah.math.trick.pro.flutter.share_provider"
+292-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-74
+293            android:exported="false"
+293-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-37
+294            android:grantUriPermissions="true" >
+294-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:13-47
+295            <meta-data
+295-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:13-20:68
+296                android:name="android.support.FILE_PROVIDER_PATHS"
+296-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:17-67
+297                android:resource="@xml/flutter_share_file_paths" />
+297-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:17-65
+298        </provider>
+299        <!--
+300           This manifest declared broadcast receiver allows us to use an explicit
+301           Intent when creating a PendingItent to be informed of the user's choice
+302        -->
+303        <receiver
+303-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:9-32:20
+304            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+304-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:13-82
+305            android:exported="false" >
+305-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-37
+306            <intent-filter>
+306-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:13-31:29
+307                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+307-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:17-65
+307-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:25-62
+308            </intent-filter>
+309        </receiver>
+310
+311        <provider
+311-->[:flutter_email_sender] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_email_sender/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-16:20
+312            android:name="com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+312-->[:flutter_email_sender] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_email_sender/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-90
+313            android:authorities="com.cheetah.math.trick.pro.file_provider"
+313-->[:flutter_email_sender] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_email_sender/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-65
+314            android:exported="false"
+314-->[:flutter_email_sender] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_email_sender/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-37
+315            android:grantUriPermissions="true" >
+315-->[:flutter_email_sender] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/flutter_email_sender/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-47
+316            <meta-data
+316-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:13-20:68
+317                android:name="android.support.FILE_PROVIDER_PATHS"
+317-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:17-67
+318                android:resource="@xml/shared_file_paths" />
+318-->[:share_plus] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:17-65
+319        </provider>
+320
+321        <activity
+321-->[:url_launcher_android] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-11:74
+322            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+322-->[:url_launcher_android] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-74
+323            android:exported="false"
+323-->[:url_launcher_android] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-37
+324            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+324-->[:url_launcher_android] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-71
+325        <activity
+325-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
+326            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+326-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
+327            android:excludeFromRecents="true"
+327-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
+328            android:exported="true"
+328-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
+329            android:launchMode="singleTask"
+329-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
+330            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+330-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
+331            <intent-filter>
+331-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
+332                <action android:name="android.intent.action.VIEW" />
+332-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:15:13-65
+332-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:15:21-62
+333
+334                <category android:name="android.intent.category.DEFAULT" />
+334-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:94:17-76
+334-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:94:27-73
+335                <category android:name="android.intent.category.BROWSABLE" />
+335-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+335-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+336
+337                <data
+337-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:13-42
+338                    android:host="firebase.auth"
+339                    android:path="/"
+340                    android:scheme="genericidp" />
+340-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:19-39
+341            </intent-filter>
+342        </activity>
+343        <activity
+343-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
+344            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+344-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
+345            android:excludeFromRecents="true"
+345-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
+346            android:exported="true"
+346-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
+347            android:launchMode="singleTask"
+347-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
+348            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+348-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
+349            <intent-filter>
+349-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
+350                <action android:name="android.intent.action.VIEW" />
+350-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:15:13-65
+350-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:15:21-62
+351
+352                <category android:name="android.intent.category.DEFAULT" />
+352-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:94:17-76
+352-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:94:27-73
+353                <category android:name="android.intent.category.BROWSABLE" />
+353-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+353-->[com.google.firebase:firebase-auth:22.3.0] /home/ankit/.gradle/caches/transforms-3/aa5c9ff5b6a60088ea50b5be356d2e7d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+354
+355                <data
+355-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:13-42
+356                    android:host="firebase.auth"
+357                    android:path="/"
+358                    android:scheme="recaptcha" />
+358-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:16:19-39
+359            </intent-filter>
+360        </activity>
+361
+362        <receiver
+362-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:29:9-33:20
+363            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+363-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:30:13-85
+364            android:enabled="true"
+364-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:31:13-35
+365            android:exported="false" >
+365-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:32:13-37
+366        </receiver>
+367
+368        <service
+368-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:35:9-38:40
+369            android:name="com.google.android.gms.measurement.AppMeasurementService"
+369-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:36:13-84
+370            android:enabled="true"
+370-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:37:13-35
+371            android:exported="false" />
+371-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:38:13-37
+372        <service
+372-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:39:9-43:72
+373            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+373-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:40:13-87
+374            android:enabled="true"
+374-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:41:13-35
+375            android:exported="false"
+375-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:42:13-37
+376            android:permission="android.permission.BIND_JOB_SERVICE" />
+376-->[com.google.android.gms:play-services-measurement:21.5.0] /home/ankit/.gradle/caches/transforms-3/75d8646a73887c440f58796ddd76f8a8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:43:13-69
+377
+378        <uses-library
+378-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/ankit/.gradle/caches/transforms-3/e34fb72c13c9e6a8e539a58d74e50cc8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+379            android:name="android.ext.adservices"
+379-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/ankit/.gradle/caches/transforms-3/e34fb72c13c9e6a8e539a58d74e50cc8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+380            android:required="false" />
+380-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/ankit/.gradle/caches/transforms-3/e34fb72c13c9e6a8e539a58d74e50cc8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+381
+382        <activity
+382-->[com.google.android.gms:play-services-auth:21.0.0] /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:23:9-27:75
+383            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+383-->[com.google.android.gms:play-services-auth:21.0.0] /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:24:13-93
+384            android:excludeFromRecents="true"
+384-->[com.google.android.gms:play-services-auth:21.0.0] /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:25:13-46
+385            android:exported="false"
+385-->[com.google.android.gms:play-services-auth:21.0.0] /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:26:13-37
+386            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+386-->[com.google.android.gms:play-services-auth:21.0.0] /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:27:13-72
+387        <!--
+388            Service handling Google Sign-In user revocation. For apps that do not integrate with
+389            Google Sign-In, this service will never be started.
+390        -->
+391        <service
+391-->[com.google.android.gms:play-services-auth:21.0.0] /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:33:9-37:51
+392            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+392-->[com.google.android.gms:play-services-auth:21.0.0] /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:34:13-89
+393            android:exported="true"
+393-->[com.google.android.gms:play-services-auth:21.0.0] /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:35:13-36
+394            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+394-->[com.google.android.gms:play-services-auth:21.0.0] /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:36:13-107
+395            android:visibleToInstantApps="true" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+395-->[com.google.android.gms:play-services-auth:21.0.0] /home/ankit/.gradle/caches/transforms-3/e8c6c8dddb2532aaa0c5d6795961cc12/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:37:13-48
+396        <activity
+396-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:56:9-61:43
+397            android:name="com.google.android.gms.ads.AdActivity"
+397-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:57:13-65
+398            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+398-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:58:13-122
+399            android:exported="false"
+399-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:59:13-37
+400            android:theme="@android:style/Theme.Translucent" />
+400-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:60:13-61
+401
+402        <provider
+402-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:63:9-68:43
+403            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+403-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:64:13-76
+404            android:authorities="com.cheetah.math.trick.pro.mobileadsinitprovider"
+404-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:65:13-73
+405            android:exported="false"
+405-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:66:13-37
+406            android:initOrder="100" />
+406-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:67:13-36
+407
+408        <service
+408-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:70:9-74:43
+409            android:name="com.google.android.gms.ads.AdService"
+409-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:71:13-64
+410            android:enabled="true"
+410-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:72:13-35
+411            android:exported="false" />
+411-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:73:13-37
+412
+413        <activity
+413-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:76:9-80:43
+414            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+414-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:77:13-82
+415            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+415-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:78:13-122
+416            android:exported="false" />
+416-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/ankit/.gradle/caches/transforms-3/cb7884c442a8eb538ead8cb6cad995f6/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:79:13-37
+417
+418        <receiver
+418-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
+419            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+419-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
+420            android:exported="true"
+420-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
+421            android:permission="com.google.android.c2dm.permission.SEND" >
+421-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
+422            <intent-filter>
+422-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:13-32:29
+423                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+423-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:31:17-81
+423-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:31:25-78
+424            </intent-filter>
+425
+426            <meta-data
+426-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
+427                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+427-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
+428                android:value="true" />
+428-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
+429        </receiver>
+430        <!--
+431             FirebaseMessagingService performs security checks at runtime,
+432             but set to not exported to explicitly avoid allowing another app to call it.
+433        -->
+434        <service
+434-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
+435            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+435-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
+436            android:directBootAware="true"
+436-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
+437            android:exported="false" >
+437-->[com.google.firebase:firebase-messaging:23.3.1] /home/ankit/.gradle/caches/transforms-3/bf3981b5089a2f97d58d86ed3c8ba8b2/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
+438            <intent-filter android:priority="-500" >
+438-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-23:29
+439                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+439-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:17-78
+439-->[:firebase_messaging] /home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:25-75
+440            </intent-filter>
+441        </service>
+442        <service
+442-->[com.google.firebase:firebase-sessions:1.2.0] /home/ankit/.gradle/caches/transforms-3/bb21209df23a5b64c928727f9d0d81dd/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:22:9-25:40
+443            android:name="com.google.firebase.sessions.SessionLifecycleService"
+443-->[com.google.firebase:firebase-sessions:1.2.0] /home/ankit/.gradle/caches/transforms-3/bb21209df23a5b64c928727f9d0d81dd/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:23:13-80
+444            android:enabled="true"
+444-->[com.google.firebase:firebase-sessions:1.2.0] /home/ankit/.gradle/caches/transforms-3/bb21209df23a5b64c928727f9d0d81dd/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:24:13-35
+445            android:exported="false" />
+445-->[com.google.firebase:firebase-sessions:1.2.0] /home/ankit/.gradle/caches/transforms-3/bb21209df23a5b64c928727f9d0d81dd/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:25:13-37
+446
+447        <provider
+447-->[com.google.firebase:firebase-common:20.4.2] /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+448            android:name="com.google.firebase.provider.FirebaseInitProvider"
+448-->[com.google.firebase:firebase-common:20.4.2] /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+449            android:authorities="com.cheetah.math.trick.pro.firebaseinitprovider"
+449-->[com.google.firebase:firebase-common:20.4.2] /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+450            android:directBootAware="true"
+450-->[com.google.firebase:firebase-common:20.4.2] /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+451            android:exported="false"
+451-->[com.google.firebase:firebase-common:20.4.2] /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+452            android:initOrder="100" />
+452-->[com.google.firebase:firebase-common:20.4.2] /home/ankit/.gradle/caches/transforms-3/f59bdf9c82000a3e52831d8ef9b3fad1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+453        <provider
+453-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+454            android:name="androidx.startup.InitializationProvider"
+454-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+455            android:authorities="com.cheetah.math.trick.pro.androidx-startup"
+455-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+456            android:exported="false" >
+456-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+457            <meta-data
+457-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+458                android:name="androidx.work.WorkManagerInitializer"
+458-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+459                android:value="androidx.startup" />
+459-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+460            <meta-data
+460-->[androidx.emoji2:emoji2:1.2.0] /home/ankit/.gradle/caches/transforms-3/93249565ec912f1879cfa9813480b9aa/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+461                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+461-->[androidx.emoji2:emoji2:1.2.0] /home/ankit/.gradle/caches/transforms-3/93249565ec912f1879cfa9813480b9aa/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+462                android:value="androidx.startup" />
+462-->[androidx.emoji2:emoji2:1.2.0] /home/ankit/.gradle/caches/transforms-3/93249565ec912f1879cfa9813480b9aa/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+463            <meta-data
+463-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/ankit/.gradle/caches/transforms-3/d1732101d6db3cb4dfdca3b8fa86358d/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+464                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+464-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/ankit/.gradle/caches/transforms-3/d1732101d6db3cb4dfdca3b8fa86358d/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+465                android:value="androidx.startup" />
+465-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/ankit/.gradle/caches/transforms-3/d1732101d6db3cb4dfdca3b8fa86358d/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+466            <meta-data
+466-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+467                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+467-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+468                android:value="androidx.startup" />
+468-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+469        </provider>
+470
+471        <service
+471-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+472            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+472-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+473            android:directBootAware="false"
+473-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+474            android:enabled="@bool/enable_system_alarm_service_default"
+474-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+475            android:exported="false" />
+475-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+476        <service
+476-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+477            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+477-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+478            android:directBootAware="false"
+478-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+479            android:enabled="@bool/enable_system_job_service_default"
+479-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+480            android:exported="true"
+480-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+481            android:permission="android.permission.BIND_JOB_SERVICE" />
+481-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+482        <service
+482-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+483            android:name="androidx.work.impl.foreground.SystemForegroundService"
+483-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+484            android:directBootAware="false"
+484-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+485            android:enabled="@bool/enable_system_foreground_service_default"
+485-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+486            android:exported="false" />
+486-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+487
+488        <receiver
+488-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+489            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+489-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+490            android:directBootAware="false"
+490-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+491            android:enabled="true"
+491-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+492            android:exported="false" />
+492-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+493        <receiver
+493-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+494            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+494-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+495            android:directBootAware="false"
+495-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+496            android:enabled="false"
+496-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+497            android:exported="false" >
+497-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+498            <intent-filter>
+498-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+499                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+499-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+499-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+500                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+500-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+500-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+501            </intent-filter>
+502        </receiver>
+503        <receiver
+503-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+504            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+504-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+505            android:directBootAware="false"
+505-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+506            android:enabled="false"
+506-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+507            android:exported="false" >
+507-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+508            <intent-filter>
+508-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+509                <action android:name="android.intent.action.BATTERY_OKAY" />
+509-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+509-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+510                <action android:name="android.intent.action.BATTERY_LOW" />
+510-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+510-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+511            </intent-filter>
+512        </receiver>
+513        <receiver
+513-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+514            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+514-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+515            android:directBootAware="false"
+515-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+516            android:enabled="false"
+516-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+517            android:exported="false" >
+517-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+518            <intent-filter>
+518-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+519                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+519-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+519-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+520                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+520-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+520-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+521            </intent-filter>
+522        </receiver>
+523        <receiver
+523-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+524            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+524-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+525            android:directBootAware="false"
+525-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+526            android:enabled="false"
+526-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+527            android:exported="false" >
+527-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+528            <intent-filter>
+528-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+529                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+529-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+529-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+530            </intent-filter>
+531        </receiver>
+532        <receiver
+532-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+533            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+533-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+534            android:directBootAware="false"
+534-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+535            android:enabled="false"
+535-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+536            android:exported="false" >
+536-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+537            <intent-filter>
+537-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+538                <action android:name="android.intent.action.BOOT_COMPLETED" />
+538-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:53:17-78
+538-->/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/android/app/src/main/AndroidManifest.xml:53:25-76
+539                <action android:name="android.intent.action.TIME_SET" />
+539-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+539-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+540                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+540-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+540-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+541            </intent-filter>
+542        </receiver>
+543        <receiver
+543-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+544            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+544-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+545            android:directBootAware="false"
+545-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+546            android:enabled="@bool/enable_system_alarm_service_default"
+546-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+547            android:exported="false" >
+547-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+548            <intent-filter>
+548-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+549                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+549-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+549-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+550            </intent-filter>
+551        </receiver>
+552        <receiver
+552-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+553            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+553-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+554            android:directBootAware="false"
+554-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+555            android:enabled="true"
+555-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+556            android:exported="true"
+556-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+557            android:permission="android.permission.DUMP" >
+557-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+558            <intent-filter>
+558-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+559                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+559-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+559-->[androidx.work:work-runtime:2.7.0] /home/ankit/.gradle/caches/transforms-3/66e1759e12a59955472100d52d5f7559/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+560            </intent-filter>
+561        </receiver>
+562
+563        <uses-library
+563-->[androidx.window:window:1.0.0-beta04] /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+564            android:name="androidx.window.extensions"
+564-->[androidx.window:window:1.0.0-beta04] /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+565            android:required="false" />
+565-->[androidx.window:window:1.0.0-beta04] /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+566        <uses-library
+566-->[androidx.window:window:1.0.0-beta04] /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+567            android:name="androidx.window.sidecar"
+567-->[androidx.window:window:1.0.0-beta04] /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+568            android:required="false" />
+568-->[androidx.window:window:1.0.0-beta04] /home/ankit/.gradle/caches/transforms-3/382293398c379f15cb688f8a8e4c2097/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+569
+570        <activity
+570-->[com.google.android.gms:play-services-base:18.0.1] /home/ankit/.gradle/caches/transforms-3/16f8b6de7e8eb0e64f6f3a95d478735f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+571            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+571-->[com.google.android.gms:play-services-base:18.0.1] /home/ankit/.gradle/caches/transforms-3/16f8b6de7e8eb0e64f6f3a95d478735f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+572            android:exported="false"
+572-->[com.google.android.gms:play-services-base:18.0.1] /home/ankit/.gradle/caches/transforms-3/16f8b6de7e8eb0e64f6f3a95d478735f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+573            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+573-->[com.google.android.gms:play-services-base:18.0.1] /home/ankit/.gradle/caches/transforms-3/16f8b6de7e8eb0e64f6f3a95d478735f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+574
+575        <meta-data
+575-->[com.google.android.gms:play-services-basement:18.2.0] /home/ankit/.gradle/caches/transforms-3/ed0df9671f9cdeb95bded617bf9a837b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+576            android:name="com.google.android.gms.version"
+576-->[com.google.android.gms:play-services-basement:18.2.0] /home/ankit/.gradle/caches/transforms-3/ed0df9671f9cdeb95bded617bf9a837b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+577            android:value="@integer/google_play_services_version" />
+577-->[com.google.android.gms:play-services-basement:18.2.0] /home/ankit/.gradle/caches/transforms-3/ed0df9671f9cdeb95bded617bf9a837b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+578
+579        <receiver
+579-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+580            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+580-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+581            android:directBootAware="false"
+581-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+582            android:enabled="true"
+582-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+583            android:exported="true"
+583-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+584            android:permission="android.permission.DUMP" >
+584-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+585            <intent-filter>
+585-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+586                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+586-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+586-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+587            </intent-filter>
+588            <intent-filter>
+588-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+589                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+589-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+589-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+590            </intent-filter>
+591            <intent-filter>
+591-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+592                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+592-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+592-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+593            </intent-filter>
+594            <intent-filter>
+594-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+595                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+595-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+595-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ankit/.gradle/caches/transforms-3/bec3a76f8c276d6168d4e97f31f92fb0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+596            </intent-filter>
+597        </receiver>
+598
+599        <service
+599-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/ankit/.gradle/caches/transforms-3/8aa9dd7d592536d75a8c53d0a317c148/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+600            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+600-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/ankit/.gradle/caches/transforms-3/8aa9dd7d592536d75a8c53d0a317c148/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+601            android:exported="false" >
+601-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/ankit/.gradle/caches/transforms-3/8aa9dd7d592536d75a8c53d0a317c148/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+602            <meta-data
+602-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/ankit/.gradle/caches/transforms-3/8aa9dd7d592536d75a8c53d0a317c148/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+603                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+603-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/ankit/.gradle/caches/transforms-3/8aa9dd7d592536d75a8c53d0a317c148/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+604                android:value="cct" />
+604-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/ankit/.gradle/caches/transforms-3/8aa9dd7d592536d75a8c53d0a317c148/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+605        </service>
+606        <service
+606-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/ankit/.gradle/caches/transforms-3/ed9f9849fb020e754718af4640085bd2/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+607            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+607-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/ankit/.gradle/caches/transforms-3/ed9f9849fb020e754718af4640085bd2/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+608            android:exported="false"
+608-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/ankit/.gradle/caches/transforms-3/ed9f9849fb020e754718af4640085bd2/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+609            android:permission="android.permission.BIND_JOB_SERVICE" >
+609-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/ankit/.gradle/caches/transforms-3/ed9f9849fb020e754718af4640085bd2/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+610        </service>
+611
+612        <receiver
+612-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/ankit/.gradle/caches/transforms-3/ed9f9849fb020e754718af4640085bd2/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+613            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+613-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/ankit/.gradle/caches/transforms-3/ed9f9849fb020e754718af4640085bd2/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+614            android:exported="false" />
+614-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/ankit/.gradle/caches/transforms-3/ed9f9849fb020e754718af4640085bd2/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+615
+616        <service
+616-->[androidx.room:room-runtime:2.2.5] /home/ankit/.gradle/caches/transforms-3/80371c25da6c19e2c4fcb7e9ff8cc292/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+617            android:name="androidx.room.MultiInstanceInvalidationService"
+617-->[androidx.room:room-runtime:2.2.5] /home/ankit/.gradle/caches/transforms-3/80371c25da6c19e2c4fcb7e9ff8cc292/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+618            android:directBootAware="true"
+618-->[androidx.room:room-runtime:2.2.5] /home/ankit/.gradle/caches/transforms-3/80371c25da6c19e2c4fcb7e9ff8cc292/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+619            android:exported="false" />
+619-->[androidx.room:room-runtime:2.2.5] /home/ankit/.gradle/caches/transforms-3/80371c25da6c19e2c4fcb7e9ff8cc292/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+620    </application>
+621
+622</manifest>
