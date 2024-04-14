@@ -1,4 +1,4 @@
-#Sun Apr 14 22:10:48 IST 2024
+#Sun Apr 14 23:14:51 IST 2024
 base.0=/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
 base.10=/home/ankit/Desktop/Maths App Bundles/flutter_maths_tricks_alpha/build/app/intermediates/dex/debug/mergeExtDexDebug/classes3.dex

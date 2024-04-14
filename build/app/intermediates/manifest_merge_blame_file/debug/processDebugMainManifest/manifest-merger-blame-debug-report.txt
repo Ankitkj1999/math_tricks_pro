@@ -20,7 +20,7 @@
 20<!-- </manifest> -->
 21<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 22    package="com.cheetah.math.trick.pro"
-23    android:versionCode="31"
+23    android:versionCode="32"
 24    android:versionName="1.0.3" >
 25
 26    <uses-sdk
