@@ -1,5 +1,5 @@
 # Math Tricks Pro | Flutter Mobile App | Offline First
-
+![A short animation showing a concept](video.gif)
 A new Flutter project.
 
 ## Getting Started
