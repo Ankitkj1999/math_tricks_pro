@@ -1,4 +1,4 @@
-# flutter_maths_tricks
+# Math Tricks Pro | Flutter Mobile App | Offline First
 
 A new Flutter project.
 
